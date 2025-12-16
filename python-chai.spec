@@ -6,20 +6,12 @@ Summary:	Easy to use mocking, stubbing and spying framework.
 URL:		https://pypi.org/project/chai/
 License:	LICENSE.txt
 Group:		Development/Python
+BuildSystem:	python
 BuildRequires:	python%{pyver}dist(pip)
 BuildArch:	noarch
 
 %description
 Easy to use mocking, stubbing and spying framework.
-
-%prep
-%autosetup -p1 -n chai-%{version}
-
-%build
-%py_build
-
-%install
-%py_install
 
 %files
 %{py_sitedir}/chai
