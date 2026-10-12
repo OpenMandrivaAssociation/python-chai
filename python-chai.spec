@@ -1,6 +1,6 @@
 Name:		python-chai
 Version:	1.1.2
-Release:	2
+Release:	3
 Source0:	https://files.pythonhosted.org/packages/source/c/chai/chai-%{version}.tar.gz
 Summary:	Easy to use mocking, stubbing and spying framework.
 URL:		https://pypi.org/project/chai/
